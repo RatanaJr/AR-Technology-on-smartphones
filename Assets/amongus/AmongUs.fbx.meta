@@ -1,0 +1,269 @@
+fileFormatVersion: 2
+guid: 274c32ec8ff5a944ebd950ecc78549a7
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: AmongUsArmature|ArmatureAction
+      takeName: AmongUsArmature|ArmatureAction
+      internalID: 5284151683403099157
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: AmongUs(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body
+      parentName: AmongUs(Clone)
+      position: {x: -1.1007855e-23, y: 3.1086245e-15, z: 0}
+      rotation: {x: -0.7071068, y: 1.1638352e-23, z: 4.7752587e-24, w: 0.7071067}
+      scale: {x: 97.98928, y: 97.98928, z: 97.98928}
+    - name: Paper
+      parentName: AmongUs(Clone)
+      position: {x: -1.7334319e-23, y: 2.0753725, z: 0}
+      rotation: {x: -0.7071068, y: 1.2919399e-23, z: 6.085907e-24, w: 0.7071067}
+      scale: {x: 38.44326, y: 38.44326, z: 38.631153}
+    - name: Arms
+      parentName: AmongUs(Clone)
+      position: {x: 0.00000023841858, y: -0.13134904, z: -1.0077097}
+      rotation: {x: -0.7071068, y: 1.1558144e-23, z: 4.6950504e-24, w: 0.7071067}
+      scale: {x: 24.915829, y: 24.915829, z: 24.915829}
+    - name: Glasses
+      parentName: AmongUs(Clone)
+      position: {x: 2.646978e-23, y: 0.6872537, z: 0.65394896}
+      rotation: {x: -0.7071068, y: 1.20844695e-23, z: 6.1829565e-24, w: 0.7071067}
+      scale: {x: 75.67969, y: 44.808502, z: 44.808502}
+    - name: AmongUsArmature
+      parentName: AmongUs(Clone)
+      position: {x: -0, y: -1.5930473, z: 0}
+      rotation: {x: 0.000000021855694, y: -1.1102232e-16, z: 1.1102232e-16, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: BASE
+      parentName: AmongUsArmature
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Circle
+      parentName: BASE
+      position: {x: -2.2042892e-19, y: 0, z: 0.0009927213}
+      rotation: {x: 1, y: -1.1102233e-16, z: 1.110223e-16, w: 0.0000000754979}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body
+      parentName: BASE
+      position: {x: -1.1524097e-18, y: 0.0002111111, z: -0.015234899}
+      rotation: {x: -0.7071068, y: -7.8504635e-17, z: -7.850464e-17, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Paper
+      parentName: Body
+      position: {x: -2.646978e-25, y: 0.022121234, z: 9.7740835e-12}
+      rotation: {x: 0.0000000070880017, y: -2.3829892e-24, z: 2.646978e-23, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Paper_end
+      parentName: Paper
+      position: {x: -0, y: 0.007810173, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Leg.L
+      parentName: Body
+      position: {x: -0.0053650653, y: -0.0047061983, z: 0.0043297014}
+      rotation: {x: 0.5224002, y: -0.32995117, z: 0.5769043, w: 0.53423935}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999994}
+    - name: Foot.L
+      parentName: Leg.L
+      position: {x: 0.0003322327, y: 0.005981527, z: -0.00027394562}
+      rotation: {x: -0.000000005029255, y: 0.000000007450581, z: 0.0000000041469264,
+        w: 1}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Foot.L_end
+      parentName: Foot.L
+      position: {x: -0, y: 0.0030590275, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Leg.R
+      parentName: Body
+      position: {x: 0.0053650653, y: -0.0043148864, z: -0.0001634106}
+      rotation: {x: 0.9104214, y: 0.3434294, z: 0.18046957, w: -0.14359657}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999976}
+    - name: Foot.R
+      parentName: Leg.R
+      position: {x: 0.0032542166, y: 0.004165945, z: 0.0026833003}
+      rotation: {x: 0.3995281, y: -0.0000000066482944, z: -0.48453417, w: 0.7782056}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: Foot.R_end
+      parentName: Foot.R
+      position: {x: -0, y: 0.0030590275, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: glasses
+      parentName: Body
+      position: {x: 1.692876e-18, y: 0.014609489, z: 0.0013577524}
+      rotation: {x: 0.7071068, y: -0.00000008429368, z: -0.0000000842937, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: glasses_end
+      parentName: glasses
+      position: {x: -0, y: 0.008297376, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: backpack
+      parentName: Body
+      position: {x: -0.009471683, y: 0.011838572, z: -0.004038299}
+      rotation: {x: -0.000000118798795, y: -0.037122108, z: 0.99931073, w: -0.0000000044131037}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: backpack_end
+      parentName: backpack
+      position: {x: -0, y: 0.0151199335, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GlassesStroke.001
+      parentName: AmongUs(Clone)
+      position: {x: 2.646978e-23, y: 0.6872537, z: 0.65394896}
+      rotation: {x: -0.7071068, y: 1.20844695e-23, z: 6.1829565e-24, w: 0.7071067}
+      scale: {x: 75.67969, y: 44.808502, z: 44.808502}
+    - name: Arms.001
+      parentName: AmongUs(Clone)
+      position: {x: 0.00000023841858, y: -0.13134904, z: -1.0077097}
+      rotation: {x: -0.7071068, y: 1.1558144e-23, z: 4.6950504e-24, w: 0.7071067}
+      scale: {x: 24.915829, y: 24.915829, z: 24.915829}
+    - name: GlassesStroke
+      parentName: AmongUs(Clone)
+      position: {x: 2.646978e-23, y: 0.6872537, z: 0.65394896}
+      rotation: {x: -0.7071068, y: 1.20844695e-23, z: 6.1829565e-24, w: 0.7071067}
+      scale: {x: 75.67969, y: 44.808502, z: 44.808502}
+    - name: BodyStroke
+      parentName: AmongUs(Clone)
+      position: {x: -1.1007855e-23, y: 3.1086245e-15, z: 0}
+      rotation: {x: -0.7071068, y: 1.1638352e-23, z: 4.7752587e-24, w: 0.7071067}
+      scale: {x: 97.98928, y: 97.98928, z: 97.98928}
+    - name: PaperStroke
+      parentName: AmongUs(Clone)
+      position: {x: -1.7334319e-23, y: 2.0753725, z: 0}
+      rotation: {x: -0.7071068, y: 1.2919399e-23, z: 6.085907e-24, w: 0.7071067}
+      scale: {x: 38.44326, y: 38.44326, z: 38.631153}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
